@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    padding: 0;
+    animation: body_ani .75s;
+    font-family: Verdana;
+}
+
+@keyframes body_ani {
+    from {
+        opacity: 0;
+        transform: rotateX('-10deg');
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+.coverimg {
+    width: 230px;
+    height: 230px;
+    border-radius: 90%; 
+    margin-bottom: -20px;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 20px;
+    position: sticky;
+    top: 0;background-color: white;
+}
+
+nav ul {
+    display: flex;
+    margin: 2px 50px;
+    float: right;
+    border-radius: 30%;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    display: block;
+    color: dimgrey;
+    padding: 0px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+nav img {
+    margin: 5px 0 5px 70px;
+    height: 60px;
+}
+
+nav ul li a:hover {
+    font-weight: bolder;
+    color: black;
+}
+
+.active {
+    font-weight: bolder;
+    font-size: larger;
+    color: black;
+}
+
+.container {
+    background-image: url(cover.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -23px;
+    height: 100vh;
+}
+.container3 {
+    background-image: url(cover.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -23px;
+    height: 70vh;
+}
+
+button {
+    width: 280px;
+    height: 70px;
+    font-size: 30px;
+    border: none;
+    box-shadow: 0 2px 4px 2px gray;
+}
+
+.button_start {
+    text-decoration: none;
+}
+
+center h1 {
+    font-size: 80px;
+    color: grey;
+}
+.main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: rgb(2, 221, 221);
+    margin-top: -20px;
+    height: 685px;
+}
+.main .m1 img {
+    width: 500px;
+    height: 663px;
+    margin-right: 90px;
+}
+
+.m1 .dev {
+    margin: 100px 0px 0px 200px;
+    font-size: 75px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.m1 .dif {
+    margin-left:201px;
+}
+.diff{
+    font-weight: bolder;
+    margin-left:201px;
+    background-color: red;
+    border: 2px solid black;
+}
+.diff a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.diff:hover{
+    box-shadow: 1px 2px 5px 2px black;
+}
+.name {
+    font-size: xx-large;
+}
+.main2 {
+    margin-top: -80px;
+    height: 666px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.main2 .card {
+    width: 400px;
+    height: 430px;
+    margin: 80px 0px 0px 40px;
+}
+.card img { 
+    width: 100px;
+    height: 100px;
+}
+.card {
+    text-align: center;
+}
+.card p {
+    text-align: justify;
+    font-size: 20px;
+}
+address {
+    font-size: small;
+}
+.main3 {
+    width: 60%;
+    height: 50%;
+    font-size: larger;
+    line-height: 35px;
+    text-align: justify;
+}
+.main4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: center;
+}
+.main4 .m2 {
+    text-align: center;
+    margin: 15px;
+}
+.onprogress {
+    width: 100vw;
+    height: 100vh;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
